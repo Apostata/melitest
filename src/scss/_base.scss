@@ -1,0 +1,32 @@
+
+//@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import 'config/reset';
+@import 'config/variables';
+@import 'config/color';
+
+body{
+  background-color: $cinza-claro;
+}
+
+.MuiGrid-container{
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &.article-wrapper{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1280px){
+  .MuiContainer-root.MuiContainer-maxWidthLg{
+    max-width: 1200px;
+  }
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  transition: color 300ms ease-in-out 0ms;
+}
