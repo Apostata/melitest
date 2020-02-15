@@ -9,7 +9,7 @@ const nodeENV = process.env.NODE_ENV;
 console.log(nodeENV);
 
 const webpack = {
-  mode: nodeENV !== 'development' ? 'production' : 'development',
+  mode: nodeENV,
   context: path.resolve(__dirname, '../src'),
   entry: {
     main:[ './index.js'],
@@ -18,18 +18,19 @@ const webpack = {
   output: {
     filename: 'js/[name].js',
     publicPath: '/',
-    path: path.resolve(__dirname, '/public'),
+    path: path.resolve(__dirname, '../public'),
   },
   devtool: nodeENV === 'production' ? 'source-map' : 'eval-source-map',
   module: {
     rules: loaders,
   },
   plugins,
-  devServer,
-  watch: true,
+  watch: nodeENV === 'development',
   resolve: {
     extensions: [ '.js']
   }
 };
-
+if(nodeENV === 'development'){
+  webpack.devServer = devServer;
+}
 module.exports = webpack;
