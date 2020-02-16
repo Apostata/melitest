@@ -12,13 +12,14 @@ const Search = props =>{
         setInputState(e.target.value);
     });
 
-    const search = ()=>{
+    const submitHandler = (e)=>{
+        e.preventDefault();
         history.push(`/items?search=${inputState}`);
     }
 
     return (
         <Container>
-            <form onSubmit={()=>search()}>
+            <form onSubmit={(e)=>submitHandler(e)}>
                 <input type="text" placeholder="Nunca deixe de buscar" className="search-input" onChange={onChange} value={inputState}/>
                 <Button type="submit" variant="contained" className="search-button">
                     <i className="fa fa-search"></i>

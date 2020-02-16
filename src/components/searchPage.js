@@ -30,14 +30,14 @@ const SearchPage = props =>{
     
 
     let toRender = (
-        <Layout>
+        <div>
             <Breadcrumb categories={categories} />
             <Container>
                 <Paper elevation={1} >
                     <ProductList products={products} categoties={categories}/>
                 </Paper>
             </Container>
-        </Layout>
+        </div>
     );
 
     if(!products && !categories){

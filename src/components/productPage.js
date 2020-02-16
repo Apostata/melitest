@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Fragment as F } from 'react';
 import Layout from './layout';
 import Breadcrumb from './breadcrumb';
 import { Container } from '@material-ui/core';
@@ -24,14 +24,14 @@ const ProductPage = props =>{
 
     let toRender = !singleProduct ? null :
     (
-        <Layout>
+        <div>
             <Breadcrumb categories={categories} />
              <Container>
                 <Paper elevation={1} >
                     {singleProduct.item.title}
                 </Paper>
             </Container>    
-        </Layout>
+        </div>
     );
 
     return toRender;
