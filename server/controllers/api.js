@@ -11,12 +11,16 @@ export const getProducts = (req, res, next) => {
     axios.get(`${process.env.BACK_SEARCH}?q=${q}&limit=${limit}`)
         .then(response => {
             const result = response.data;
+            const filters = result.filters && result.filters.length > 0 ?
+                result.filters[0].values[0].path_from_root :
+                [result.available_filters[0].values[0]];
+
             const resToReturn = {
                 author: {
                     name: "Rene",
                     lastname: "Souza"
                 },
-                categories: listFormater(result.filters[0].values[0].path_from_root, 'categorie'),
+                categories: listFormater(filters, 'categorie'),
                 items: listFormater(result.results, 'product')
                 
             };

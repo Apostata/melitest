@@ -2,7 +2,6 @@ import { initStore } from './store';
 
 const actions = {
     SET_CATEGORIES: (globaState, categs) =>{
-        console.log(categs);
         return {
             categories: categs
         };

@@ -1,6 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import Button from '@material-ui/core/Button';
-import { Container } from '@material-ui/core';
+import { Container, Button } from '@material-ui/core';
 import { withRouter } from 'react-router-dom';
 
 const Search = props =>{

@@ -1,10 +1,8 @@
 import React, { useCallback, Fragment as F } from 'react';
-import Grid from '@material-ui/core/Grid';
-import { Container } from '@material-ui/core';
+import { Container, Grid } from '@material-ui/core';
 
 const Breadcrumb = props => {
     const { categories } = props;
-
     const renderCategories = useCallback(categories => {
         return categories.map((categorie, idx)=>{
             let toRender = idx === 0 ? 

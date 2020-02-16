@@ -46,7 +46,7 @@ export const useHttp = () => {
             try{
                 const response = await axios({
                     method:'GET',
-                    url:`${process.env.FRONT_API}?q=${query || "Iphone"}&limit=4`
+                    url:`${process.env.FRONT_API}?q=${query}&limit=4`
                 });
                 dispatchHttp({type:'GET_PRODUCTS', result: response.data});
             }

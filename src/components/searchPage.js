@@ -3,8 +3,7 @@ import Breadcrumb from './breadcrumb';
 import ProductList from './productList';
 import { useHttp } from '../hooks/useHttp';
 import useOld from '../helpers/useOld';
-import { Container } from '@material-ui/core';
-import Paper from '@material-ui/core/Paper';
+import { Container, Paper } from '@material-ui/core';
 import { useStore } from '../stores/store';
 
 const SearchPage = props =>{  
@@ -22,7 +21,6 @@ const SearchPage = props =>{
         }
         if(!categoriesLoadedState && categories) {
             setCategoriesLoaded(true);
-            console.log(categories);
             dispatch('SET_CATEGORIES', categories);
         }
     },[getProducts, products, searchString, oldString, categoriesLoadedState, setCategoriesLoaded]);

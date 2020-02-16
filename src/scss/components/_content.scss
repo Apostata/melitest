@@ -14,16 +14,111 @@
   }
 }
 
-.listItem{
-  justify-content: flex-start!important;
+.listItem-wrapper{
+  
+  .listItem{
+    border-bottom: 1px solid $cinza-claro;
+    justify-content: flex-start!important;
+    align-items: flex-start;
+    cursor: pointer;
+
+    .product-data{
+      padding: 16px;
+      h2{
+        font-size: 24px;
+        padding-bottom: 16px;
+        color: $cinza-escuro;
+
+        span{
+          background: url('../imgs/ic_shipping.png') no-repeat 0 0;
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+          margin-left: 10px;
+        }
+      }
+
+      h3{
+        font-size: 18px;
+        color: $cinza-escuro;
+      }
+    }
+
+    .product-origin{
+      padding: 16px;
+      p{
+        margin-top: 16px;
+        color: $cinza-medio;
+        font-size: 12px;
+      }
+    }
+
+    .image-wrapper{
+      display: flex;
+      justify-content: center;
+      border-radius: 4px;
+      padding: 16px;
+
+      .image{
+        max-width: 180px;
+        max-height: 180px;
+      }
+    }
+  }
+}
+
+.product-details{
+  margin-top: 30px;
 
   .image-wrapper{
     display: flex;
     justify-content: center;
 
-    .image{
-      max-width: 180px;
-      max-height: 180px;
+    img{
+      max-width: 500px;
+      max-height: 500px;  
     }
+  }
+}
+
+.product-data{
+  padding: 32px 16px 16px;
+
+  p{
+    color: $cinza-escuro;
+    font-size: 14px;
+    margin-bottom: 16px;;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
+  h2{
+    padding: 16px 0;
+    font-size: 46px;
+  }
+  .buyButton{
+    margin-top: 16px;
+    width: 100%;
+    background: $azul-institucional;
+    color: white;
+
+    &:hover{
+      background-color: lighten($azul-institucional, 10%);
+    }
+  }
+}
+
+.product-description{
+  padding-left: 32px;
+  padding-right: 32px;
+  h3{
+    font-size: 28px;
+    padding-bottom: 32px;;
+  }
+  p{
+    color: $cinza-medio;
+    font-size: 16px;
   }
 }

@@ -1,6 +1,5 @@
 import React, { Fragment as F} from 'react';
-import Grid from '@material-ui/core/Grid';
-import { Container } from '@material-ui/core';
+import { Container, Grid } from '@material-ui/core';
 import Header from './header';
 
 const Layout = props =>{

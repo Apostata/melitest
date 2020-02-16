@@ -6,6 +6,9 @@
 
 .logo-wrapper{
   display: flex;
+  img{
+    cursor: pointer;
+  }
   
   .MuiGrid-container{
     padding: 0;
@@ -16,6 +19,11 @@
   display: flex;
   .MuiContainer-root{
     display: flex;
+
+    form{
+      width: 100%;
+      display: flex;
+    }
   }
 
   .search-input{

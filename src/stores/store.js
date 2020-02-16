@@ -15,7 +15,6 @@ export const useStore = (shouldListen = true) => {
         const args = payload ? [globalState, payload] : [globalState]; 
         const newState = actions[type](...args);
         globalState = {...globalState, ...newState};
-        console.log(globalState);
         for (const listener of listeners){
             listener(globalState);
         }
