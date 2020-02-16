@@ -11,6 +11,8 @@ module.exports = {
   open: true, // initialize after bundle,
   overlay: true, // show errors overlay on screen
   https: false,
+  hot: true,
+  historyApiFallback: true
   // before: (app) => {
   //   app.get('/api', (req, res) => {
   //     res.send(products);

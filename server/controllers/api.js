@@ -49,7 +49,7 @@ export const getProduct = (req, res, next) => {
             item: {
                 ... productFormater(fetchedProduct, fetchedProduct.pictures[0].url),
                 sold_quantity: fetchedProduct.sold_quantity,
-                description: description.data.plain_text
+                description: description.data.plain_text,
             }
         };
         res.send(resToReturn);

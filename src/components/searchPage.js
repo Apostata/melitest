@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Layout from './layout';
 import Breadcrumb from './breadcrumb';
 import ProductList from './productList';
 import { useHttp } from '../hooks/useHttp';

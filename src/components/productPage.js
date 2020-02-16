@@ -1,8 +1,7 @@
 import React, { useEffect, useState, Fragment as F } from 'react';
-import Layout from './layout';
 import Breadcrumb from './breadcrumb';
-import { Container } from '@material-ui/core';
-import Paper from '@material-ui/core/Paper';
+import { Container, Grid, Paper } from '@material-ui/core';
+
 import { useHttp } from '../hooks/useHttp';
 import { useStore } from '../stores/store';
 
@@ -28,7 +27,28 @@ const ProductPage = props =>{
             <Breadcrumb categories={categories} />
              <Container>
                 <Paper elevation={1} >
-                    {singleProduct.item.title}
+                    <Container>
+                        <Grid container justify="center">
+                            <Grid item xs={7}>
+                                <div className="image-wrapper">
+                                    <img src={singleProduct.item.picture} />
+                                </div>
+                            </Grid>
+                            <Grid item xs={5}>
+                                <p>{singleProduct.item.condition} - {singleProduct.item.sold_quantity}</p>
+                                <h1>{singleProduct.item.title}</h1>
+                                <h2>$ {singleProduct.item.price.amount},{singleProduct.item.price.decimals===0? singleProduct.item.price.decimals+"0" : singleProduct.item.price.decimals}</h2>
+                            </Grid>
+                        </Grid>
+                        <Grid container justify="center">
+                            <Grid item xs={5}>
+                                <h3>Descripción del producto</h3>
+                                <p>
+                                    {singleProduct.item.description}
+                                </p>
+                            </Grid>
+                        </Grid>
+                    </Container>
                 </Paper>
             </Container>    
         </div>
