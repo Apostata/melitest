@@ -8,9 +8,9 @@ const Breadcrumb = props => {
     const renderCategories = useCallback(categories => {
         return categories.map((categorie, idx)=>{
             let toRender = idx === 0 ? 
-                (<span key={categorie.id}>{categorie.name}</span>):
-                (<F key={categorie.id}>
-                    <span>></span><span>{categorie.name}</span>
+                (<span key={`cat-${idx}`}>{categorie}</span>):
+                (<F key={`cat-${idx}`}>
+                    <span>></span><span>{categorie}</span>
                 </F>)
             
             return toRender;

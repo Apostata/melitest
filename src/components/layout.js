@@ -4,9 +4,10 @@ import { Container } from '@material-ui/core';
 import Header from './header';
 
 const Layout = props =>{
+    const { clearHttpData } = props;
     return(
         <F>
-            <Header/>
+            <Header clearHttpData={clearHttpData} />
             <Grid item xs={12} className="content-wrapper">
                 <Container maxWidth='lg'>
                     <Grid container justify="center" alignItems="center"  className="article-wrapper">

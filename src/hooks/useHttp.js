@@ -1,6 +1,5 @@
 import axios from 'axios'
 import { useReducer, useCallback } from 'react';
-
 const initialState = {
     loading: false,
     products: null,
@@ -15,13 +14,25 @@ const httpReducer = (httpState, action) => {
         case 'GET_PRODUCTS':
             return {
                 ...httpState,
-                products: action.result.results,
-                categories:action.result.filters[0].values[0].path_from_root
+                products: action.result.items,
+                categories:action.result.categories
             };
+
         case 'GET_SINGLE_PRODUCT':
             return {
                 ...httpState,
                 singleProduct: action.product
+            };
+
+        case 'SET_ERROR':
+            return {
+                ...httpState,
+                error: action.error
+            };
+
+        case 'CLEAR':
+            return {
+                initialState
             };
     }
 };
@@ -29,18 +40,19 @@ const httpReducer = (httpState, action) => {
 export const useHttp = () => {
     const [httpState, dispatchHttp] = useReducer(httpReducer, initialState);
 
-    const getProducts = useCallback((query = 'Apple ipod') =>{
+    const getProducts = useCallback(query  =>{
         const fetchProducts = async () =>{
             
             try{
                 const response = await axios({
                     method:'GET',
-                    url:`https://api.mercadolibre.com/sites/MLA/search?q=${query}&limit=4`
+                    url:`${process.env.FRONT_API}?q=${query || "Iphone"}&limit=4`
                 });
                 dispatchHttp({type:'GET_PRODUCTS', result: response.data});
             }
             catch(err){
-                dispatch('SET_ERROR', err.message);
+                console.log(err.message);
+                dispatchHttp({type:'SET_ERROR', error: err.message});
             }
         };
         fetchProducts();
@@ -52,17 +64,21 @@ export const useHttp = () => {
             try{
                 const response = await axios({
                     method:'GET',
-                    url:`https://api.mercadolibre.com/items/${id}`
+                    url:`${process.env.FRONT_API}/${id}`
                 });
                 dispatchHttp({type:'GET_SINGLE_PRODUCT', product: response.data});
-                //console.log(response);
             }
             catch(err){
-                dispatch('SET_ERROR', err.message);
+               console.log(err.message);
+               dispatchHttp({type:'SET_ERROR', error: err.message});
             }
         };
         fetchProduct();
     });
+
+    const clearHttpData = useCallback(()=>{
+        dispatchHttp({type:'CLEAR'});
+    })
 
     return {
         products: httpState.products,
@@ -71,5 +87,6 @@ export const useHttp = () => {
         error: httpState.error,
         getProducts,
         getProduct,
+        clearHttpData,
     }
 };

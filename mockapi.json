@@ -1,0 +1,875 @@
+{
+    "site_id": "MLA",
+    "query": ":query",
+    "paging": {
+        "total": 627,
+        "offset": 0,
+        "limit": 4,
+        "primary_results": 627
+    },
+    "results": [
+        {
+            "id": "MLA772921213",
+            "site_id": "MLA",
+            "title": "Mesa Mesita De Luz Vintage Retro Nordica Pino Con Cajones",
+            "seller": {
+                "id": 193972813,
+                "permalink": null,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 1100,
+            "currency_id": "ARS",
+            "available_quantity": 500,
+            "sold_quantity": 250,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2039-02-21T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.ar/MLA-772921213-mesa-mesita-de-luz-vintage-retro-nordica-pino-con-cajones-_JM",
+            "thumbnail": "http://mla-s2-p.mlstatic.com/608380-MLA32167208403_092019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 150.12,
+                "rate": 63.77,
+                "currency_id": "ARS"
+            },
+            "address": {
+                "state_id": "AR-B",
+                "state_name": "Buenos Aires",
+                "city_id": null,
+                "city_name": "MARTINEZ"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [
+                    "self_service_in"
+                ],
+                "logistic_type": "cross_docking",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                    "id": "AR-B",
+                    "name": "Buenos Aires"
+                },
+                "city": {
+                    "id": null,
+                    "name": "MARTINEZ"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_id": "5225893",
+                    "value_name": "Queri Accesorios",
+                    "values": [
+                        {
+                            "source": 1572,
+                            "id": "5225893",
+                            "name": "Queri Accesorios",
+                            "struct": null
+                        }
+                    ],
+                    "attribute_group_name": "Otros",
+                    "source": 1572
+                },
+                {
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "2230284",
+                            "name": "Nuevo",
+                            "struct": null,
+                            "source": 1572
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284"
+                },
+                {
+                    "id": "MODEL",
+                    "name": "Modelo",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": null,
+                            "name": "Mesa de luz",
+                            "struct": null,
+                            "source": 3376461333454861
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "value_id": null,
+                    "value_name": "Mesa de luz",
+                    "attribute_group_name": "Otros",
+                    "source": 3376461333454861
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLA370415",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_thumbnail",
+                "loyalty_discount_eligible",
+                "brand_verified",
+                "good_quality_picture",
+                "immediate_payment",
+                "cart_eligible"
+            ]
+        },
+        {
+            "id": "MLA738085345",
+            "site_id": "MLA",
+            "title": "Mesa Mesita De Luz Vintage Retro Nordica Pino Natural",
+            "seller": {
+                "id": 193972813,
+                "permalink": null,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 950,
+            "currency_id": "ARS",
+            "available_quantity": 250,
+            "sold_quantity": 250,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-07-13T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.ar/MLA-738085345-mesa-mesita-de-luz-vintage-retro-nordica-pino-natural-_JM",
+            "thumbnail": "http://mla-s2-p.mlstatic.com/680028-MLA32857875112_112019-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 129.65,
+                "rate": 63.77,
+                "currency_id": "ARS"
+            },
+            "address": {
+                "state_id": "AR-B",
+                "state_name": "Buenos Aires",
+                "city_id": null,
+                "city_name": "MARTINEZ"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [
+                    "self_service_in"
+                ],
+                "logistic_type": "cross_docking",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                    "id": "AR-B",
+                    "name": "Buenos Aires"
+                },
+                "city": {
+                    "id": null,
+                    "name": "MARTINEZ"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "id": "BRAND",
+                    "name": "Marca",
+                    "value_name": "Queri Accesorios",
+                    "source": 1577,
+                    "value_id": "5225893",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "source": 1577,
+                            "id": "5225893",
+                            "name": "Queri Accesorios",
+                            "struct": null
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros"
+                },
+                {
+                    "source": 1572,
+                    "name": "Condición del ítem",
+                    "value_struct": null,
+                    "attribute_group_name": "Otros",
+                    "values": [
+                        {
+                            "id": "2230284",
+                            "name": "Nuevo",
+                            "struct": null,
+                            "source": 1572
+                        }
+                    ],
+                    "attribute_group_id": "OTHERS",
+                    "id": "ITEM_CONDITION",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo"
+                },
+                {
+                    "name": "Modelo",
+                    "values": [
+                        {
+                            "name": "Pino escandinavo",
+                            "struct": null,
+                            "source": 1577,
+                            "id": null
+                        }
+                    ],
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "MODEL",
+                    "value_name": "Pino escandinavo",
+                    "value_struct": null,
+                    "attribute_group_id": "OTHERS",
+                    "value_id": null
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLA370415",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_thumbnail",
+                "loyalty_discount_eligible",
+                "brand_verified",
+                "good_quality_picture",
+                "immediate_payment",
+                "cart_eligible"
+            ]
+        },
+        {
+            "id": "MLA726620111",
+            "site_id": "MLA",
+            "title": "Mesa Ratona De Pino Ovalada Retro Escandinava Macizo Nordica",
+            "seller": {
+                "id": 193972813,
+                "permalink": null,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 1200,
+            "currency_id": "ARS",
+            "available_quantity": 500,
+            "sold_quantity": 250,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-05-17T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.ar/MLA-726620111-mesa-ratona-de-pino-ovalada-retro-escandinava-macizo-nordica-_JM",
+            "thumbnail": "http://mla-s2-p.mlstatic.com/680432-MLA27777317938_072018-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 163.77,
+                "rate": 63.77,
+                "currency_id": "ARS"
+            },
+            "address": {
+                "state_id": "AR-B",
+                "state_name": "Buenos Aires",
+                "city_id": null,
+                "city_name": "MARTINEZ"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "not_specified",
+                "tags": [],
+                "logistic_type": "not_specified",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                    "id": "AR-B",
+                    "name": "Buenos Aires"
+                },
+                "city": {
+                    "id": null,
+                    "name": "MARTINEZ"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Marca",
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "source": 1577,
+                    "id": "BRAND",
+                    "value_id": "5225893",
+                    "value_name": "Queri Accesorios",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "source": 1577,
+                            "id": "5225893",
+                            "name": "Queri Accesorios",
+                            "struct": null
+                        }
+                    ]
+                },
+                {
+                    "value_name": "Nuevo",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "struct": null,
+                            "source": 1572,
+                            "id": "2230284",
+                            "name": "Nuevo"
+                        }
+                    ],
+                    "attribute_group_name": "Otros",
+                    "source": 1572,
+                    "id": "ITEM_CONDITION",
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "attribute_group_id": "OTHERS"
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLA4749",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "good_quality_thumbnail",
+                "loyalty_discount_eligible",
+                "brand_verified",
+                "good_quality_picture",
+                "immediate_payment"
+            ]
+        },
+        {
+            "id": "MLA762657894",
+            "site_id": "MLA",
+            "title": "Atril Infantil Pizarra Pizarron Niños Niñas",
+            "seller": {
+                "id": 193972813,
+                "permalink": null,
+                "power_seller_status": "gold",
+                "car_dealer": false,
+                "real_estate_agency": false,
+                "tags": []
+            },
+            "price": 350,
+            "currency_id": "ARS",
+            "available_quantity": 1,
+            "sold_quantity": 100,
+            "buying_mode": "buy_it_now",
+            "listing_type_id": "gold_special",
+            "stop_time": "2038-12-10T04:00:00.000Z",
+            "condition": "new",
+            "permalink": "https://articulo.mercadolibre.com.ar/MLA-762657894-atril-infantil-pizarra-pizarron-ninos-ninas-_JM",
+            "thumbnail": "http://mla-s1-p.mlstatic.com/989032-MLA29006213109_122018-I.jpg",
+            "accepts_mercadopago": true,
+            "installments": {
+                "quantity": 12,
+                "amount": 47.77,
+                "rate": 63.77,
+                "currency_id": "ARS"
+            },
+            "address": {
+                "state_id": "AR-B",
+                "state_name": "Buenos Aires",
+                "city_id": null,
+                "city_name": "MARTINEZ"
+            },
+            "shipping": {
+                "free_shipping": false,
+                "mode": "me2",
+                "tags": [
+                    "self_service_in"
+                ],
+                "logistic_type": "cross_docking",
+                "store_pick_up": false
+            },
+            "seller_address": {
+                "id": "",
+                "comment": "",
+                "address_line": "",
+                "zip_code": "",
+                "country": {
+                    "id": "AR",
+                    "name": "Argentina"
+                },
+                "state": {
+                    "id": "AR-B",
+                    "name": "Buenos Aires"
+                },
+                "city": {
+                    "id": null,
+                    "name": "MARTINEZ"
+                },
+                "latitude": "",
+                "longitude": ""
+            },
+            "attributes": [
+                {
+                    "name": "Marca",
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "id": "BRAND",
+                    "value_name": "Queri Accesorios",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "id": "5225893",
+                            "name": "Queri Accesorios",
+                            "struct": null,
+                            "source": 1572
+                        }
+                    ],
+                    "source": 1572,
+                    "value_id": "5225893"
+                },
+                {
+                    "source": 1572,
+                    "name": "Condición del ítem",
+                    "value_id": "2230284",
+                    "value_name": "Nuevo",
+                    "attribute_group_id": "OTHERS",
+                    "attribute_group_name": "Otros",
+                    "id": "ITEM_CONDITION",
+                    "value_struct": null,
+                    "values": [
+                        {
+                            "source": 1572,
+                            "id": "2230284",
+                            "name": "Nuevo",
+                            "struct": null
+                        }
+                    ]
+                },
+                {
+                    "attribute_group_id": "OTHERS",
+                    "source": 1572,
+                    "name": "Modelo",
+                    "value_id": null,
+                    "value_struct": null,
+                    "attribute_group_name": "Otros",
+                    "id": "MODEL",
+                    "value_name": "Pizarrón chico",
+                    "values": [
+                        {
+                            "id": null,
+                            "name": "Pizarrón chico",
+                            "struct": null,
+                            "source": 1572
+                        }
+                    ]
+                }
+            ],
+            "original_price": null,
+            "category_id": "MLA352343",
+            "official_store_id": null,
+            "catalog_product_id": null,
+            "tags": [
+                "brand_verified",
+                "good_quality_picture",
+                "good_quality_thumbnail",
+                "immediate_payment",
+                "cart_eligible"
+            ]
+        }
+    ],
+    "secondary_results": [],
+    "related_results": [],
+    "sort": {
+        "id": "relevance",
+        "name": "Más relevantes"
+    },
+    "available_sorts": [
+        {
+            "id": "price_asc",
+            "name": "Menor precio"
+        },
+        {
+            "id": "price_desc",
+            "name": "Mayor precio"
+        }
+    ],
+    "filters": [],
+    "available_filters": [
+        {
+            "id": "category",
+            "name": "Categorías",
+            "type": "text",
+            "values": [
+                {
+                    "id": "MLA412445",
+                    "name": "Libros",
+                    "results": 139
+                },
+                {
+                    "id": "MLA436380",
+                    "name": "Muebles para el Hogar",
+                    "results": 89
+                },
+                {
+                    "id": "MLA1592",
+                    "name": "Bazar y Cocina",
+                    "results": 49
+                },
+                {
+                    "id": "MLA1582",
+                    "name": "Iluminación para el Hogar",
+                    "results": 39
+                },
+                {
+                    "id": "MLA1648",
+                    "name": "Computación",
+                    "results": 30
+                },
+                {
+                    "id": "MLA409431",
+                    "name": "Salud y Equipamiento Médico",
+                    "results": 24
+                },
+                {
+                    "id": "MLA1051",
+                    "name": "Celulares y Teléfonos",
+                    "results": 20
+                },
+                {
+                    "id": "MLA1000",
+                    "name": "Electrónica, Audio y Video",
+                    "results": 20
+                },
+                {
+                    "id": "MLA1631",
+                    "name": "Adornos y Decoración del Hogar",
+                    "results": 19
+                },
+                {
+                    "id": "MLA1132",
+                    "name": "Juegos y Juguetes",
+                    "results": 13
+                },
+                {
+                    "id": "MLA5725",
+                    "name": "Accesorios para Vehículos",
+                    "results": 10
+                },
+                {
+                    "id": "MLA1430",
+                    "name": "Ropa y Accesorios",
+                    "results": 10
+                },
+                {
+                    "id": "MLA436069",
+                    "name": "Cuidado del Hogar y Lavandería",
+                    "results": 9
+                },
+                {
+                    "id": "MLA1621",
+                    "name": "Jardines y Exteriores",
+                    "results": 9
+                },
+                {
+                    "id": "MLA9304",
+                    "name": "Souvenirs, Cotillón y Fiestas",
+                    "results": 9
+                },
+                {
+                    "id": "MLA1499",
+                    "name": "Industrias y Oficinas",
+                    "results": 8
+                },
+                {
+                    "id": "MLA1368",
+                    "name": "Arte, Librería y Mercería",
+                    "results": 7
+                },
+                {
+                    "id": "MLA1276",
+                    "name": "Deportes y Fitness",
+                    "results": 7
+                },
+                {
+                    "id": "MLA436414",
+                    "name": "Organización para el Hogar",
+                    "results": 6
+                },
+                {
+                    "id": "MLA1384",
+                    "name": "Bebés",
+                    "results": 5
+                },
+                {
+                    "id": "MLA407134",
+                    "name": "Herramientas y Construcción",
+                    "results": 5
+                },
+                {
+                    "id": "MLA1071",
+                    "name": "Animales y Mascotas",
+                    "results": 4
+                },
+                {
+                    "id": "MLA1367",
+                    "name": "Antigüedades y Colecciones",
+                    "results": 4
+                },
+                {
+                    "id": "MLA3937",
+                    "name": "Joyas y Relojes",
+                    "results": 4
+                },
+                {
+                    "id": "MLA1613",
+                    "name": "Baños",
+                    "results": 3
+                },
+                {
+                    "id": "MLA1168",
+                    "name": "Música, Películas y Series",
+                    "results": 3
+                },
+                {
+                    "id": "MLA1039",
+                    "name": "Cámaras y Accesorios",
+                    "results": 2
+                },
+                {
+                    "id": "MLA5726",
+                    "name": "Electrodomésticos y Aires Ac.",
+                    "results": 2
+                },
+                {
+                    "id": "MLA1227",
+                    "name": "Otros",
+                    "results": 103
+                },
+                {
+                    "id": "MLA1953",
+                    "name": "Otras categorías",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "official_store",
+            "name": "Tiendas oficiales",
+            "type": "text",
+            "values": [
+                {
+                    "id": "all",
+                    "name": "Todas las tiendas oficiales",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "state",
+            "name": "Ubicación",
+            "type": "text",
+            "values": [
+                {
+                    "id": "TUxBUENBUGw3M2E1",
+                    "name": "Capital Federal",
+                    "results": 311
+                },
+                {
+                    "id": "TUxBUEdSQWU4ZDkz",
+                    "name": "Bs.As. G.B.A. Norte",
+                    "results": 307
+                },
+                {
+                    "id": "TUxBUEdSQXJlMDNm",
+                    "name": "Bs.As. G.B.A. Sur",
+                    "results": 3
+                },
+                {
+                    "id": "TUxBUFpPTmFpbnRl",
+                    "name": "Buenos Aires Interior",
+                    "results": 3
+                },
+                {
+                    "id": "TUxBUFNBTmU5Nzk2",
+                    "name": "Santa Fe",
+                    "results": 2
+                },
+                {
+                    "id": "TUxBUEdSQWVmNTVm",
+                    "name": "Bs.As. G.B.A. Oeste",
+                    "results": 1
+                }
+            ]
+        },
+        {
+            "id": "price",
+            "name": "Precio",
+            "type": "range",
+            "values": [
+                {
+                    "id": "*-700.0",
+                    "name": "Hasta $ 700",
+                    "results": 203
+                },
+                {
+                    "id": "700.0-3500.0",
+                    "name": "$700 a $3.500",
+                    "results": 194
+                },
+                {
+                    "id": "3500.0-*",
+                    "name": "Más de $3.500",
+                    "results": 230
+                }
+            ]
+        },
+        {
+            "id": "accepts_mercadopago",
+            "name": "Filtro por MercadoPago",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Con MercadoPago",
+                    "results": 627
+                }
+            ]
+        },
+        {
+            "id": "installments",
+            "name": "Pago",
+            "type": "text",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "En cuotas",
+                    "results": 627
+                },
+                {
+                    "id": "no_interest",
+                    "name": "Sin interés",
+                    "results": 32
+                }
+            ]
+        },
+        {
+            "id": "shipping",
+            "name": "Tipo de entrega",
+            "type": "text",
+            "values": [
+                {
+                    "id": "mercadoenvios",
+                    "name": "Con envío",
+                    "results": 565
+                }
+            ]
+        },
+        {
+            "id": "power_seller",
+            "name": "Filtro por calidad de vendedores",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Mejores vendedores",
+                    "results": 413
+                }
+            ]
+        },
+        {
+            "id": "has_video",
+            "name": "Filtro por publicaciones con video",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Publicaciones con video",
+                    "results": 12
+                }
+            ]
+        },
+        {
+            "id": "has_pictures",
+            "name": "Filtro por publicaciones con imágenes",
+            "type": "boolean",
+            "values": [
+                {
+                    "id": "yes",
+                    "name": "Con fotos",
+                    "results": 627
+                }
+            ]
+        },
+        {
+            "id": "shipping_cost",
+            "name": "Costo de envío",
+            "type": "text",
+            "values": [
+                {
+                    "id": "free",
+                    "name": "Gratis",
+                    "results": 244
+                }
+            ]
+        },
+        {
+            "id": "ITEM_CONDITION",
+            "name": "Condición",
+            "type": "STRING",
+            "values": [
+                {
+                    "id": "2230284",
+                    "name": "Nuevo",
+                    "results": 619
+                },
+                {
+                    "id": "2230581",
+                    "name": "Usado",
+                    "results": 5
+                }
+            ]
+        }
+    ]
+}

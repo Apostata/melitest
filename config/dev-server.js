@@ -6,14 +6,14 @@ module.exports = {
   contentBase: path.join(__dirname, '../public'), // path para pegar os arquivos do servidor;
   compress: true, // enable gzip
   index: 'index.html',
-  port: 8081,
+  port: 8080,
   hot: true, // hot reload
   open: true, // initialize after bundle,
   overlay: true, // show errors overlay on screen
   https: false,
-  before: (app) => {
-    app.get('/api', (req, res) => {
-      res.send(products);
-    });
-  },
+  // before: (app) => {
+  //   app.get('/api', (req, res) => {
+  //     res.send(products);
+  //   });
+  // },
 };

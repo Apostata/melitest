@@ -14,17 +14,18 @@ const categorieFormater = categorie =>{
 };
 
 export const productFormater = (product, detail = false) => {
-   const price = (product.price / 100).toFixed(2).split('.');
+   const price = product.price.toString().split('.');
     return {
         id: product.id,
         title:product.title,
         price:{
             currency:product.currency_id,
-            amount: price[0],
-            decimals: price[1]
+            amount: Number(price[0]),
+            decimals: Number(price[1]) || 0
         },
-        picture: !detail ? product.thumbnail : detail,
+        picture: !detail ? product.thumbnail.replace(/-\w.jpg/, '-O.jpg') : detail,
         condition:product.condition,
-        free_shipping:product.free_shipping
+        free_shipping:product.shipping.free_shipping,
+        address: product.address
     }
 };

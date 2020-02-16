@@ -1,7 +1,6 @@
 // não tem validação do payload pois não há payload
 
 import axios from 'axios';
-import decodeUriComponent from 'decodeuricomponent';
 import { listFormater, productFormater } from '../helpers/prodFormater'
 
 export const getProducts = (req, res, next) => {
@@ -9,7 +8,7 @@ export const getProducts = (req, res, next) => {
     q = q || '';
     limit = limit || 4;
 
-    axios.get(`${process.env.SEARCH}?q=${q}&limit=${limit}`)
+    axios.get(`${process.env.BACK_SEARCH}?q=${q}&limit=${limit}`)
         .then(response => {
             const result = response.data;
             const resToReturn = {
@@ -32,14 +31,14 @@ export const getProduct = (req, res, next) => {
     let { id } = req.params;
     let fetchedProduct;
 
-    axios.get(`${process.env.PRODUCT}/${id}`)
+    axios.get(`${process.env.BACK_PRODUCT}/${id}`)
     .then(response => {
         const result = response.data
         return result;
     })
     .then(product =>{
         fetchedProduct = product;
-        return axios.get(`${process.env.PRODUCT}/${id}/description`);
+        return axios.get(`${process.env.BACK_PRODUCT}/${id}/description`);
     })
     .then(description=>{
         const resToReturn = {

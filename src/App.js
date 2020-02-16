@@ -1,30 +1,24 @@
-import React, { useEffect } from 'react';
-import Layout from './components/layout';
-import Breadcrumb from './components/breadcrumb';
-import ProductList from './components/productList';
-import { useHttp } from './hooks/useHttp';
+import React, {lazy, Suspense } from 'react';
+import {Route, Switch} from 'react-router-dom';
 
-const App = props =>{  
-    const {getProducts, products, categories} = useHttp();
-    
-    useEffect(()=>{
-        if(!products && !categories){
-            getProducts();
-        }
-    },[getProducts, products])
+const SearchPage = lazy(()=>import('./components/searchPage'));
+const HomePage = lazy(()=>import('./components/homePage'));
+const ProductPage = lazy(()=>import('./components/productPage'));
 
-    let toRender = (
-        <Layout>
-            <Breadcrumb categories={categories} />
-            <ProductList products={products}/>
-        </Layout>
-    );
 
-    if(!products && !categories){
-        toRender = null;
-    }
+const app = props => {
+  let routes =(
+    <Switch>
+      <Route path="/" exact render={(props)=> <HomePage {...props }/>} />
+      <Route path="/items/:id" render={(props)=> <ProductPage {...props} />} />
+      <Route path="/items" render={(props)=> <SearchPage {...props} />} />
+      <Route path="*" render={(props)=> <HomePage {...props }/>} />
+    </Switch>
+  );
+  
+  return (
+    <Suspense fallback={<p>Loading...</p>}>{routes}</Suspense>
+  );
+}
 
-    return toRender
-};
-
-export default App;
+export default app;

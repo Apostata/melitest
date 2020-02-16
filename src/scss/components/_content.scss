@@ -1,0 +1,29 @@
+@import '../config/color';
+@import '../config/variables';
+
+.MuiContainer-root{
+  &.breadcrumb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    span{
+      padding: 0 2px;
+      color: $cinza-medio;
+      font-size: 14px;
+    }
+  }
+}
+
+.listItem{
+  justify-content: flex-start!important;
+
+  .image-wrapper{
+    display: flex;
+    justify-content: center;
+
+    .image{
+      max-width: 180px;
+      max-height: 180px;
+    }
+  }
+}
